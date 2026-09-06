@@ -1,19 +1,30 @@
-# Site CISIS-JGB — versão inicial
+# CISIS-JGB — Site institucional v2
 
-Site estático preparado para publicação gratuita no GitHub Pages.
+## Publicação no GitHub Pages
+1. Abra o repositório `CISIS-JGB`.
+2. Faça upload/substitua os ficheiros desta pasta na raiz do repositório.
+3. Confirme em **Settings → Pages** que a publicação usa a branch `main` e a pasta `/(root)`.
+4. Aguarde alguns minutos e recarregue o endereço público.
 
-## Publicar no GitHub Pages
-1. Criar uma conta ou organização no GitHub para o CISIS-JGB.
-2. Criar um repositório público chamado `cisis-jgb.github.io` (ou outro nome).
-3. Carregar todos os ficheiros desta pasta para a raiz do repositório.
-4. Se o repositório tiver outro nome: ir a **Settings → Pages → Build and deployment → Deploy from a branch**, escolher `main` e `/ (root)`.
-5. O endereço ficará disponível em poucos minutos.
+## Funcionalidades
+- Português / Inglês
+- Design responsivo
+- Modo claro/escuro
+- Secções: apresentação, áreas, projetos, equipa, galeria, parcerias, atualidade e contactos
+- Filtros de projetos
+- Pesquisa de membros
+- Galeria com lightbox
+- Botões de partilha, copiar e-mail, guardar contacto (vCard) e imprimir/PDF
+- SEO / Open Graph / dados estruturados
+- PWA / service worker para funcionamento offline básico
+- Sem cookies de rastreamento
 
-## Ficheiros
-- `index.html` — conteúdo e estrutura.
-- `styles.css` — design responsivo.
-- `script.js` — menu móvel e ano automático.
-- `assets/logo-cisis-jgb.png` — logótipo fornecido pelo CISIS-JGB.
+## Importante antes da publicação definitiva
+Os nomes, fotografias e cargos da equipa foram recuperados do site institucional anterior do Centro.
+Como essa informação pode ter sido alterada desde então, recomenda-se confirmar os cargos atuais.
 
-## Alterações rápidas
-Os textos podem ser editados diretamente em `index.html`. As cores principais estão no topo de `styles.css`.
+As fotografias de equipa e atividades são carregadas diretamente a partir do antigo site Wix.
+Isto evita o uso de imagens fictícias, mas significa que dependem da manutenção desses ficheiros no Wix.
+Para uma versão definitiva e independente, é preferível guardar cópias autorizadas dessas fotografias no próprio repositório.
+
+A página de Facebook é ligada a partir do site, mas não é incorporada automaticamente, para preservar desempenho e privacidade.

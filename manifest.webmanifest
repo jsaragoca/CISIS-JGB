@@ -1,0 +1,16 @@
+{
+  "name": "CISIS-JGB",
+  "short_name": "CISIS-JGB",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0e5a42",
+  "icons": [
+    {
+      "src": "assets/logo-cisis-jgb.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

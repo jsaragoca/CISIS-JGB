@@ -1,143 +1,379 @@
 <!doctype html>
 <html lang="pt">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Centro de Investigação Sociológica e Intervenção Social – Jovens pela Guiné-Bissau (CISIS-JGB). Investigação, intervenção social, participação e desenvolvimento." />
-  <title>CISIS-JGB | Investigação e Intervenção Social na Guiné-Bissau</title>
-  <link rel="icon" href="assets/logo-cisis-jgb.png" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CISIS-JGB | Investigação Sociológica e Intervenção Social</title>
+  <meta name="description" content="Centro de Investigação Sociológica e Intervenção Social – Jovens pela Guiné-Bissau. Investigação, avaliação, capacitação, participação e desenvolvimento social.">
+  <meta name="theme-color" content="#0f5a42">
+  <meta property="og:title" content="CISIS-JGB">
+  <meta property="og:description" content="Conhecimento sociológico ao serviço do desenvolvimento social da Guiné-Bissau.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jsaragoca.github.io/CISIS-JGB/">
+  <meta property="og:image" content="assets/logo-cisis-jgb.png">
+  <link rel="icon" href="assets/logo-cisis-jgb.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Centro de Investigação Sociológica e Intervenção Social – Jovens pela Guiné-Bissau",
+    "alternateName":"CISIS-JGB",
+    "url":"https://jsaragoca.github.io/CISIS-JGB/",
+    "email":"cisis.jgb@gmail.com",
+    "telephone":"956800404",
+    "sameAs":["https://www.facebook.com/people/Cisis-jgb/100094467396719/"]
+  }
+  </script>
 </head>
 <body>
-  <header class="site-header" id="topo">
-    <div class="container nav-wrap">
-      <a class="brand" href="#topo" aria-label="CISIS-JGB — página inicial">
-        <img src="assets/logo-cisis-jgb.png" alt="Logótipo do CISIS-JGB" />
-      </a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
-      <nav id="menu" class="menu" aria-label="Navegação principal">
-        <a href="#quem-somos">Quem somos</a>
-        <a href="#areas">Áreas</a>
-        <a href="#iniciativas">Iniciativas</a>
-        <a href="#parcerias">Parcerias</a>
-        <a href="#contactos" class="nav-cta">Contactos</a>
-      </nav>
+<a class="skip-link" href="#main"><span class="lang lang-pt">Saltar para o conteúdo</span><span class="lang lang-en">Skip to content</span></a>
+
+<header class="site-header" id="top">
+  <div class="container nav-wrap">
+    <a class="brand" href="#top" aria-label="CISIS-JGB">
+      <img src="assets/logo-cisis-jgb.png" alt="Logótipo CISIS-JGB">
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">☰</button>
+    <nav id="site-nav" class="nav" aria-label="Principal">
+      <a href="#sobre"><span class="lang lang-pt">Quem somos</span><span class="lang lang-en">About</span></a>
+      <a href="#areas"><span class="lang lang-pt">Áreas</span><span class="lang lang-en">Areas</span></a>
+      <a href="#projetos"><span class="lang lang-pt">Projetos</span><span class="lang lang-en">Projects</span></a>
+      <a href="#equipa"><span class="lang lang-pt">Equipa</span><span class="lang lang-en">Team</span></a>
+      <a href="#galeria"><span class="lang lang-pt">Galeria</span><span class="lang lang-en">Gallery</span></a>
+      <a href="#parcerias"><span class="lang lang-pt">Parcerias</span><span class="lang lang-en">Partnerships</span></a>
+      <a href="#contactos"><span class="lang lang-pt">Contactos</span><span class="lang lang-en">Contact</span></a>
+    </nav>
+    <div class="tools">
+      <button id="lang-toggle" class="tool-btn" type="button" aria-label="Mudar idioma">EN</button>
+      <button id="theme-toggle" class="tool-btn" type="button" aria-label="Mudar tema">◐</button>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-stripes" aria-hidden="true"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <span class="eyebrow">Investigação · Intervenção · Participação · Desenvolvimento</span>
-          <h1>Conhecimento sociológico ao serviço do desenvolvimento social da Guiné-Bissau</h1>
-          <p class="lead">O CISIS-JGB produz conhecimento, apoia processos de decisão e desenvolve iniciativas de intervenção social, com especial atenção ao desenvolvimento inclusivo, participativo e sustentável.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#parcerias">Propor uma parceria</a>
-            <a class="btn btn-secondary" href="#quem-somos">Conhecer o Centro</a>
-          </div>
-          <div class="hero-tags" aria-label="Áreas-chave">
-            <span>Investigação social</span><span>Avaliação de projetos</span><span>Capacitação</span><span>Participação cidadã</span>
-          </div>
-        </div>
-        <aside class="hero-card" aria-label="Missão do CISIS-JGB">
-          <div class="flag-mark" aria-hidden="true"><i></i><i></i><i></i></div>
-          <h2>Missão</h2>
-          <p>Contribuir para a transformação positiva da sociedade guineense através da produção, disseminação e aplicação do conhecimento científico, promovendo respostas fundamentadas aos desafios sociais.</p>
-          <p class="quote">“Investigar hoje por uma sociedade melhor amanhã.”</p>
-        </aside>
+<main id="main">
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <img class="hero-photo" src="https://static.wixstatic.com/media/56c817_2a10637222fd4acc834a7e3785806b19~mv2.jpg/v1/fill/w_940%2Ch_434%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/Foto_grupo.jpg" alt="<span class="lang lang-pt">Equipa em atividade de campo</span><span class="lang lang-en">Team during fieldwork</span>">
+    <div class="container hero-content">
+      <p class="eyebrow"><span class="lang lang-pt">Investigação · Intervenção · Participação · Desenvolvimento</span><span class="lang lang-en">Research · Intervention · Participation · Development</span></p>
+      <h1><span class="lang lang-pt">Conhecimento sociológico ao serviço do desenvolvimento social da Guiné-Bissau</span><span class="lang lang-en">Sociological knowledge serving social development in Guinea-Bissau</span></h1>
+      <p class="hero-lead"><span class="lang lang-pt">Produzimos conhecimento, apoiamos decisões e colaboramos na conceção, implementação, monitorização e avaliação de iniciativas com impacto social.</span><span class="lang lang-en">We produce knowledge, support evidence-informed decisions and collaborate in the design, implementation, monitoring and evaluation of initiatives with social impact.</span></p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#parcerias"><span class="lang lang-pt">Propor uma parceria</span><span class="lang lang-en">Propose a partnership</span></a>
+        <a class="btn ghost" href="#sobre"><span class="lang lang-pt">Conhecer o Centro</span><span class="lang lang-en">Discover the Centre</span></a>
       </div>
-    </section>
-
-    <section id="quem-somos" class="section">
-      <div class="container split">
-        <div>
-          <span class="section-kicker">Quem somos</span>
-          <h2>Um centro jovem, guineense e orientado para a transformação social</h2>
-        </div>
-        <div class="prose">
-          <p>O Centro de Investigação Sociológica e Intervenção Social – Jovens pela Guiné-Bissau (CISIS-JGB), sediado em Bissau, é uma organização constituída maioritariamente por jovens sociólogos guineenses dedicados à investigação científica e à intervenção social.</p>
-          <p>O Centro nasceu da iniciativa de dez jovens recém-licenciados em Sociologia, com a ambição de criar uma instituição capaz de promover a investigação científica e colocar o conhecimento sociológico ao serviço do desenvolvimento social da Guiné-Bissau. A sua criação contou com o apoio e orientação do Professor Doutor José Saragoça.</p>
-          <p>Atualmente, integra profissionais e investigadores em diferentes etapas dos seus percursos académicos, incluindo estudantes de mestrado, mestres, doutorandos e doutorados.</p>
-        </div>
-      </div>
-      <div class="container values-grid">
-        <article><span>01</span><h3>Desenvolvimento sustentável</h3><p>Conhecimento e intervenção orientados para respostas duradouras aos desafios sociais.</p></article>
-        <article><span>02</span><h3>Direitos Humanos</h3><p>Respeito pela dignidade humana, igualdade de oportunidades e inclusão social.</p></article>
-        <article><span>03</span><h3>Participação</h3><p>Valorização do envolvimento dos cidadãos e das comunidades nos processos de decisão.</p></article>
-        <article><span>04</span><h3>Rigor científico</h3><p>Produção de conhecimento relevante, fundamentado e útil para instituições e comunidades.</p></article>
-      </div>
-    </section>
-
-    <section id="areas" class="section section-soft">
-      <div class="container">
-        <span class="section-kicker">Áreas de atuação</span>
-        <h2>Competências que podemos mobilizar com parceiros</h2>
-        <div class="cards">
-          <article class="card"><div class="icon">⌁</div><h3>Estudos e diagnósticos sociais</h3><p>Investigação aplicada sobre dinâmicas sociais, inovação social, desenvolvimento e políticas públicas.</p></article>
-          <article class="card"><div class="icon">◎</div><h3>Monitorização e avaliação</h3><p>Conceção, acompanhamento, monitorização e avaliação de projetos e programas de intervenção.</p></article>
-          <article class="card"><div class="icon">↗</div><h3>Intervenção comunitária</h3><p>Apoio a iniciativas de inclusão, educação, formação, integração socioprofissional e desenvolvimento local.</p></article>
-          <article class="card"><div class="icon">◫</div><h3>Dados e apoio à decisão</h3><p>Recolha, tratamento e análise de dados sociais, produção de relatórios e evidência para decisão.</p></article>
-          <article class="card"><div class="icon">◉</div><h3>Participação cidadã</h3><p>Modelos de gestão participativa, processos colaborativos e envolvimento dos cidadãos.</p></article>
-          <article class="card"><div class="icon">✦</div><h3>Formação e capacitação</h3><p>Reforço de competências científicas, técnicas e profissionais de organizações e atores locais.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="iniciativas" class="section">
-      <div class="container">
-        <span class="section-kicker">Algumas iniciativas</span>
-        <h2>Conhecimento produzido e espaços de reflexão</h2>
-        <div class="timeline">
-          <article><div class="dot red"></div><div><h3>Conferência “Desafios da investigação científica na Guiné-Bissau”</h3><p>Realizada por ocasião do 1.º aniversário do CISIS-JGB, reunindo docentes universitários, investigadores, estudantes e representantes institucionais.</p></div></article>
-          <article><div class="dot green"></div><div><h3>Estudo “Relação Família–Escola e Comunidade”</h3><p>Realização do estudo e apresentação pública dos seus resultados.</p></div></article>
-          <article><div class="dot yellow"></div><div><h3>Encontro de reflexão sobre o ensino superior</h3><p>Debate dedicado aos desafios do ensino superior na Guiné-Bissau.</p></div></article>
-          <article><div class="dot dark"></div><div><h3>Estudo sobre o voluntariado</h3><p>Investigação atualmente em desenvolvimento sobre o voluntariado no contexto guineense.</p></div></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="parcerias" class="section partnership">
-      <div class="container partnership-grid">
-        <div>
-          <span class="section-kicker light">Parcerias para maior impacto</span>
-          <h2>Conhecimento local, competências científicas e disponibilidade para cooperar</h2>
-          <p>O CISIS-JGB está disponível para colaborar com instituições nacionais e internacionais na realização de estudos e diagnósticos sociais, recolha e análise de dados, monitorização e avaliação de projetos, intervenção comunitária, capacitação de atores locais e organização de atividades científicas e de sensibilização.</p>
-        </div>
-        <div class="partnership-points">
-          <div><strong>Contexto</strong><span>Conhecimento aprofundado da realidade social guineense</span></div>
-          <div><strong>Proximidade</strong><span>Capacidade de mobilização local e proximidade às comunidades</span></div>
-          <div><strong>Competência</strong><span>Investigação, análise de dados, monitorização e avaliação</span></div>
-          <div><strong>Cooperação</strong><span>Disponibilidade para projetos nacionais e internacionais</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contactos" class="section contact-section">
-      <div class="container contact-grid">
-        <div>
-          <span class="section-kicker">Contactos</span>
-          <h2>Vamos trabalhar juntos?</h2>
-          <p>Para propostas de parceria, investigação, avaliação, capacitação ou outras formas de colaboração, contacte o CISIS-JGB.</p>
-        </div>
-        <div class="contact-card">
-          <a href="tel:956800404"><span>Telefone</span><strong>956 800 404</strong></a>
-          <a href="mailto:cisis.jgb@gmail.com"><span>E-mail</span><strong>cisis.jgb@gmail.com</strong></a>
-          <a href="https://www.facebook.com/people/Cisis-jgb/100094467396719/" target="_blank" rel="noopener"><span>Facebook</span><strong>Cisis-jgb</strong></a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <img src="assets/logo-cisis-jgb.png" alt="CISIS-JGB" />
-      <p>© <span id="year"></span> CISIS-JGB. Centro de Investigação Sociológica e Intervenção Social – Jovens pela Guiné-Bissau.</p>
-      <a href="#topo">Voltar ao topo ↑</a>
     </div>
-  </footer>
+  </section>
 
-  <script src="script.js"></script>
+  <section class="metrics strip">
+    <div class="container metrics-grid">
+      <div><strong data-count="10">10</strong><span><span class="lang lang-pt">fundadores jovens sociólogos</span><span class="lang lang-en">young sociologist founders</span></span></div>
+      <div><strong data-count="10">10</strong><span><span class="lang lang-pt">escolas no estudo família–escola–comunidade</span><span class="lang lang-en">schools in the family–school–community study</span></span></div>
+      <div><strong data-count="45">45+</strong><span><span class="lang lang-pt">atores entrevistados no trabalho de campo inicial</span><span class="lang lang-en">actors interviewed in the initial fieldwork</span></span></div>
+      <div><strong>PT / EN</strong><span><span class="lang lang-pt">site institucional bilingue</span><span class="lang lang-en">bilingual institutional website</span></span></div>
+    </div>
+  </section>
+
+  <section id="sobre" class="section">
+    <div class="container split">
+      <div>
+        <p class="eyebrow"><span class="lang lang-pt">Quem somos</span><span class="lang lang-en">About us</span></p>
+        <h2><span class="lang lang-pt">Um centro jovem, guineense e orientado para a transformação social</span><span class="lang lang-en">A young Guinean centre focused on social transformation</span></h2>
+      </div>
+      <div class="prose">
+        <p><span class="lang lang-pt">O Centro de Investigação Sociológica e Intervenção Social – Jovens pela Guiné-Bissau (CISIS-JGB), sediado em Bissau, é uma organização constituída maioritariamente por jovens sociólogos guineenses dedicados à investigação científica e à intervenção social.</span><span class="lang lang-en">The Centre for Sociological Research and Social Intervention – Youth for Guinea-Bissau (CISIS-JGB), based in Bissau, is an organisation composed mainly of young Guinean sociologists dedicated to scientific research and social intervention.</span></p>
+        <p><span class="lang lang-pt">O Centro nasceu da iniciativa de dez jovens recém-licenciados em Sociologia, com a ambição de promover a investigação científica e colocar o conhecimento sociológico ao serviço do desenvolvimento social da Guiné-Bissau.</span><span class="lang lang-en">The Centre emerged from the initiative of ten recent Sociology graduates who shared the ambition of promoting scientific research and putting sociological knowledge at the service of Guinea-Bissau's social development.</span></p>
+      </div>
+    </div>
+
+    <div class="container values-grid">
+      <article><span>01</span><h3><span class="lang lang-pt">Desenvolvimento sustentável</span><span class="lang lang-en">Sustainable development</span></h3><p><span class="lang lang-pt">Respostas duradouras, inclusivas e socialmente relevantes.</span><span class="lang lang-en">Durable, inclusive and socially relevant responses.</span></p></article>
+      <article><span>02</span><h3><span class="lang lang-pt">Direitos Humanos</span><span class="lang lang-en">Human Rights</span></h3><p><span class="lang lang-pt">Dignidade humana, igualdade de oportunidades e inclusão.</span><span class="lang lang-en">Human dignity, equal opportunities and inclusion.</span></p></article>
+      <article><span>03</span><h3><span class="lang lang-pt">Participação</span><span class="lang lang-en">Participation</span></h3><p><span class="lang lang-pt">Envolvimento dos cidadãos e das comunidades nos processos de decisão.</span><span class="lang lang-en">Citizen and community involvement in decision-making.</span></p></article>
+      <article><span>04</span><h3><span class="lang lang-pt">Rigor científico</span><span class="lang lang-en">Scientific rigour</span></h3><p><span class="lang lang-pt">Conhecimento fundamentado, transparente e útil para a ação.</span><span class="lang lang-en">Evidence-based, transparent knowledge useful for action.</span></p></article>
+    </div>
+  </section>
+
+  <section id="areas" class="section alt">
+    <div class="container">
+      <p class="eyebrow"><span class="lang lang-pt">Áreas de atuação</span><span class="lang lang-en">Areas of work</span></p>
+      <h2><span class="lang lang-pt">Competências que podemos mobilizar com parceiros</span><span class="lang lang-en">Capabilities we can mobilise with partners</span></h2>
+      <div class="cards six">
+        <article><div class="icon">⌁</div><h3><span class="lang lang-pt">Estudos e diagnósticos sociais</span><span class="lang lang-en">Social research & diagnostics</span></h3><p><span class="lang lang-pt">Investigação aplicada sobre dinâmicas sociais, inovação social, desenvolvimento e políticas públicas.</span><span class="lang lang-en">Applied research on social dynamics, social innovation, development and public policy.</span></p></article>
+        <article><div class="icon">◎</div><h3><span class="lang lang-pt">Monitorização e avaliação</span><span class="lang lang-en">Monitoring & evaluation</span></h3><p><span class="lang lang-pt">Conceção de quadros de resultados, indicadores, recolha de evidências e avaliação de projetos.</span><span class="lang lang-en">Results frameworks, indicators, evidence collection and project evaluation.</span></p></article>
+        <article><div class="icon">↗</div><h3><span class="lang lang-pt">Intervenção comunitária</span><span class="lang lang-en">Community intervention</span></h3><p><span class="lang lang-pt">Inclusão, educação, formação, integração socioprofissional e desenvolvimento local.</span><span class="lang lang-en">Inclusion, education, training, socio-professional integration and local development.</span></p></article>
+        <article><div class="icon">◫</div><h3><span class="lang lang-pt">Dados e apoio à decisão</span><span class="lang lang-en">Data & decision support</span></h3><p><span class="lang lang-pt">Recolha, tratamento e análise de dados; relatórios, diagnósticos e recomendações.</span><span class="lang lang-en">Data collection, processing and analysis; reports, diagnostics and recommendations.</span></p></article>
+        <article><div class="icon">◉</div><h3><span class="lang lang-pt">Participação cidadã</span><span class="lang lang-en">Citizen participation</span></h3><p><span class="lang lang-pt">Gestão participativa, processos colaborativos e envolvimento de cidadãos e organizações.</span><span class="lang lang-en">Participatory management, collaborative processes and engagement of citizens and organisations.</span></p></article>
+        <article><div class="icon">✦</div><h3><span class="lang lang-pt">Formação e capacitação</span><span class="lang lang-en">Training & capacity building</span></h3><p><span class="lang lang-pt">Reforço de competências científicas, técnicas, metodológicas e organizacionais.</span><span class="lang lang-en">Strengthening scientific, technical, methodological and organisational skills.</span></p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><span class="lang lang-pt">Projetos e iniciativas</span><span class="lang lang-en">Projects & initiatives</span></p>
+          <h2><span class="lang lang-pt">Investigação, reflexão e intervenção</span><span class="lang lang-en">Research, reflection and intervention</span></h2>
+        </div>
+        <div class="filter-row" aria-label="Filtros">
+          <button class="chip active" data-filter="all"><span class="lang lang-pt">Todos</span><span class="lang lang-en">All</span></button>
+          <button class="chip" data-filter="research"><span class="lang lang-pt">Investigação</span><span class="lang lang-en">Research</span></button>
+          <button class="chip" data-filter="event"><span class="lang lang-pt">Eventos</span><span class="lang lang-en">Events</span></button>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card" data-category="research">
+          <span class="status completed"><span class="lang lang-pt">Estudo realizado</span><span class="lang lang-en">Study conducted</span></span>
+          <h3><span class="lang lang-pt">Relação Família–Escola e Comunidade</span><span class="lang lang-en">Family–School–Community Relations</span></h3>
+          <p><span class="lang lang-pt">Estudo empírico desenvolvido em escolas de Bissau e arredores, centrado nas relações entre escola, família e comunidade e nas condições que podem contribuir para melhores aprendizagens e integração social.</span><span class="lang lang-en">Empirical study carried out in schools in Bissau and surrounding areas, focusing on relationships among schools, families and communities and on conditions that may improve learning and social integration.</span></p>
+          <ul>
+            <li><span class="lang lang-pt">10 escolas incluídas no trabalho de campo inicial</span><span class="lang lang-en">10 schools included in the initial fieldwork</span></li>
+            <li><span class="lang lang-pt">mais de 45 atores entrevistados</span><span class="lang lang-en">more than 45 actors interviewed</span></li>
+            <li><span class="lang lang-pt">diretores, responsáveis pedagógicos, famílias e líderes de opinião</span><span class="lang lang-en">school leaders, pedagogical staff, families and opinion leaders</span></li>
+          </ul>
+        </article>
+
+        <article class="project-card" data-category="research">
+          <span class="status ongoing"><span class="lang lang-pt">Em desenvolvimento</span><span class="lang lang-en">Ongoing</span></span>
+          <h3><span class="lang lang-pt">Voluntariado no contexto guineense</span><span class="lang lang-en">Volunteering in the Guinean context</span></h3>
+          <p><span class="lang lang-pt">Investigação dedicada à compreensão do voluntariado, das motivações, práticas e contributos para a participação social e o desenvolvimento na Guiné-Bissau.</span><span class="lang lang-en">Research aimed at understanding volunteering, motivations, practices and contributions to social participation and development in Guinea-Bissau.</span></p>
+        </article>
+
+        <article class="project-card" data-category="event">
+          <span class="status event"><span class="lang lang-pt">Conferência</span><span class="lang lang-en">Conference</span></span>
+          <h3><span class="lang lang-pt">Desafios da investigação científica na Guiné-Bissau</span><span class="lang lang-en">Challenges of scientific research in Guinea-Bissau</span></h3>
+          <p><span class="lang lang-pt">Iniciativa realizada por ocasião do primeiro aniversário do Centro, com participação de docentes, investigadores, estudantes e representantes institucionais.</span><span class="lang lang-en">Initiative held on the Centre's first anniversary, bringing together academics, researchers, students and institutional representatives.</span></p>
+        </article>
+
+        <article class="project-card" data-category="event">
+          <span class="status event"><span class="lang lang-pt">Debate</span><span class="lang lang-en">Debate</span></span>
+          <h3><span class="lang lang-pt">Reflexão sobre o ensino superior na Guiné-Bissau</span><span class="lang lang-en">Reflection on higher education in Guinea-Bissau</span></h3>
+          <p><span class="lang lang-pt">Espaço de análise e debate sobre desafios, oportunidades e desenvolvimento do ensino superior no país.</span><span class="lang lang-en">A forum for analysis and debate on the challenges, opportunities and development of higher education in the country.</span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="equipa" class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow"><span class="lang lang-pt">Equipa</span><span class="lang lang-en">Team</span></p>
+          <h2><span class="lang lang-pt">Investigadores e membros do Centro</span><span class="lang lang-en">Researchers and Centre members</span></h2>
+        </div>
+        <label class="search-box">
+          <span class="sr-only"><span class="lang lang-pt">Pesquisar membro</span><span class="lang lang-en">Search member</span></span>
+          <input id="team-search" type="search" placeholder="<span class="lang lang-pt">Pesquisar nome…</span><span class="lang lang-en">Search name…</span>">
+        </label>
+      </div>
+      <p class="small-note"><span class="lang lang-pt">A composição e os cargos abaixo reproduzem a informação institucional publicada no site anterior do Centro; recomenda-se a sua validação antes de uma divulgação definitiva.</span><span class="lang lang-en">The composition and roles below reproduce the institutional information published on the Centre's previous website; validation is recommended before definitive publication.</span></p>
+      <div class="team-grid"><article class="person-card reveal" data-name="adolfo n'baji">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_5e4eea27240e4351b26caea09bc4c7a1~mv2.jpg/v1/fill/w_332%2Ch_332%2Cal_c%2Clg_1%2Cq_80%2Cenc_avif%2Cquality_auto/IMG-20210528-WA0011_edited_edited.jpg" alt="Adolfo N'baji">
+      <div class="person-body">
+        <h3>Adolfo N'baji</h3>
+        <p><span class="lang lang-pt">Diretor Executivo</span><span class="lang lang-en">Executive Director</span></p>
+      </div>
+    </article>
+<article class="person-card reveal" data-name="nhima djancó">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_14871a4c37ab4ac1ac5a322aa93f282e~mv2.jpg/v1/fill/w_344%2Ch_344%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/IMG-20210528-WA0014_edited.jpg" alt="Nhima Djancó">
+      <div class="person-body">
+        <h3>Nhima Djancó</h3>
+        <p><span class="lang lang-pt">Secretária do Conselho Fiscal</span><span class="lang lang-en">Secretary, Supervisory Board</span></p>
+      </div>
+    </article>
+<article class="person-card reveal" data-name="joão gomes rodrigues">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_9b153e1cd6c342138b01e6824fc18d12~mv2.jpg/v1/fill/w_344%2Ch_344%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/IMG-20210528-WA0020_edited.jpg" alt="João Gomes Rodrigues">
+      <div class="person-body">
+        <h3>João Gomes Rodrigues</h3>
+        <p><span class="lang lang-pt">Secretário Executivo</span><span class="lang lang-en">Executive Secretary</span></p>
+      </div>
+    </article>
+<article class="person-card reveal" data-name="andré domingos tubento">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_5033a9a0f6c04d33a64b609b30da53a2~mv2.jpg/v1/fill/w_344%2Ch_344%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/IMG-20210528-WA0017_edited.jpg" alt="André Domingos Tubento">
+      <div class="person-body">
+        <h3>André Domingos Tubento</h3>
+        <p><span class="lang lang-pt">Secretário da Assembleia Geral</span><span class="lang lang-en">Secretary, General Assembly</span></p>
+      </div>
+    </article>
+<article class="person-card reveal" data-name="maria dango toni cumba">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_03f1aab8368d424989304dbdd119f282~mv2.jpg/v1/fill/w_344%2Ch_344%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/IMG-20210528-WA0010_edited.jpg" alt="Maria Dango Toni Cumba">
+      <div class="person-body">
+        <h3>Maria Dango Toni Cumba</h3>
+        <p><span class="lang lang-pt">Vogal Executiva</span><span class="lang lang-en">Executive Board Member</span></p>
+      </div>
+    </article>
+<article class="person-card reveal" data-name="alfredo joão indafa cubala">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_fe5f61d0b2de444b968d268b5dfead9c~mv2.jpg/v1/fill/w_344%2Ch_344%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/IMG-20210528-WA0016_edited.jpg" alt="Alfredo João Indafa Cubala">
+      <div class="person-body">
+        <h3>Alfredo João Indafa Cubala</h3>
+        <p><span class="lang lang-pt">Vogal Executivo</span><span class="lang lang-en">Executive Board Member</span></p>
+      </div>
+    </article>
+<article class="person-card reveal" data-name="marciano fanda">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_099e41d369fe46c4954b16277351e560~mv2.jpg/v1/fill/w_344%2Ch_344%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/IMG-20210528-WA0019_edited.jpg" alt="Marciano Fanda">
+      <div class="person-body">
+        <h3>Marciano Fanda</h3>
+        <p><span class="lang lang-pt">Presidente do Conselho Fiscal</span><span class="lang lang-en">President, Supervisory Board</span></p>
+      </div>
+    </article>
+<article class="person-card reveal" data-name="martinho n'fodi">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_d1d12a59c581403bad7e54b74c302881~mv2.jpg/v1/fill/w_344%2Ch_344%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/IMG-20210528-WA0018_edited.jpg" alt="Martinho N'fodi">
+      <div class="person-body">
+        <h3>Martinho N'fodi</h3>
+        <p><span class="lang lang-pt">Vice-Diretor Executivo</span><span class="lang lang-en">Deputy Executive Director</span></p>
+      </div>
+    </article>
+<article class="person-card reveal" data-name="joaquim insique">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_e172048d6d0f4409a0de3e945d68f569~mv2.jpg/v1/fill/w_344%2Ch_344%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/IMG-20210528-WA0013_edited.jpg" alt="Joaquim Insique">
+      <div class="person-body">
+        <h3>Joaquim Insique</h3>
+        <p><span class="lang lang-pt">Vice-Presidente da Assembleia Geral</span><span class="lang lang-en">Vice-President, General Assembly</span></p>
+      </div>
+    </article>
+<article class="person-card reveal" data-name="silvano nhaga">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_8380b0ebd63b4cab84ae8a1376554429~mv2.jpg/v1/fill/w_344%2Ch_344%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/IMG-20210528-WA0015_edited.jpg" alt="Silvano Nhaga">
+      <div class="person-body">
+        <h3>Silvano Nhaga</h3>
+        <p><span class="lang lang-pt">Vice-Presidente do Conselho Fiscal</span><span class="lang lang-en">Vice-President, Supervisory Board</span></p>
+      </div>
+    </article>
+<article class="person-card reveal" data-name="josé saragoça">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_ed037007b8ec4904928beb98d193db0d~mv2.jpg/v1/fill/w_344%2Ch_344%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/Foto_JS_JPG.jpg" alt="José Saragoça">
+      <div class="person-body">
+        <h3>José Saragoça</h3>
+        <p><span class="lang lang-pt">Presidente da Mesa da Assembleia / Apoio científico</span><span class="lang lang-en">President, General Assembly / Scientific support</span></p>
+      </div>
+    </article></div>
+    </div>
+  </section>
+
+  <section id="galeria" class="section">
+    <div class="container">
+      <p class="eyebrow"><span class="lang lang-pt">Galeria</span><span class="lang lang-en">Gallery</span></p>
+      <h2><span class="lang lang-pt">Evidências reais do trabalho de campo</span><span class="lang lang-en">Real evidence from fieldwork</span></h2>
+      <p class="lead"><span class="lang lang-pt">Fotografias provenientes do álbum institucional do antigo site do Centro. Clique para ampliar.</span><span class="lang lang-en">Photographs from the institutional album on the Centre's previous website. Click to enlarge.</span></p>
+      <div class="gallery-grid"><button class="gallery-item reveal" type="button" data-full="https://static.wixstatic.com/media/56c817_2a10637222fd4acc834a7e3785806b19~mv2.jpg/v1/fill/w_940%2Ch_434%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/Foto_grupo.jpg" aria-label="Abrir fotografia 1">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_2a10637222fd4acc834a7e3785806b19~mv2.jpg/v1/fill/w_940%2Ch_434%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/Foto_grupo.jpg" alt="<span class="lang lang-pt">Atividade do CISIS-JGB</span><span class="lang lang-en">CISIS-JGB activity</span>">
+    </button>
+<button class="gallery-item reveal" type="button" data-full="https://static.wixstatic.com/media/56c817_f9d0b63cdedc4083a2273800dd821090~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_f9d0b63cdedc4083a2273800dd821090~mv2.jpg" aria-label="Abrir fotografia 2">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_f9d0b63cdedc4083a2273800dd821090~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_f9d0b63cdedc4083a2273800dd821090~mv2.jpg" alt="<span class="lang lang-pt">Atividade do CISIS-JGB</span><span class="lang lang-en">CISIS-JGB activity</span>">
+    </button>
+<button class="gallery-item reveal" type="button" data-full="https://static.wixstatic.com/media/56c817_e30a15124e1b4f81b44643d37308dcf9~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_e30a15124e1b4f81b44643d37308dcf9~mv2.jpg" aria-label="Abrir fotografia 3">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_e30a15124e1b4f81b44643d37308dcf9~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_e30a15124e1b4f81b44643d37308dcf9~mv2.jpg" alt="<span class="lang lang-pt">Atividade do CISIS-JGB</span><span class="lang lang-en">CISIS-JGB activity</span>">
+    </button>
+<button class="gallery-item reveal" type="button" data-full="https://static.wixstatic.com/media/56c817_4e6cfac2bb004676a1754d126b9c27f4~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_4e6cfac2bb004676a1754d126b9c27f4~mv2.jpg" aria-label="Abrir fotografia 4">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_4e6cfac2bb004676a1754d126b9c27f4~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_4e6cfac2bb004676a1754d126b9c27f4~mv2.jpg" alt="<span class="lang lang-pt">Atividade do CISIS-JGB</span><span class="lang lang-en">CISIS-JGB activity</span>">
+    </button>
+<button class="gallery-item reveal" type="button" data-full="https://static.wixstatic.com/media/56c817_714a3ccf5cc54b39a955899ff89fd46f~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_714a3ccf5cc54b39a955899ff89fd46f~mv2.jpg" aria-label="Abrir fotografia 5">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_714a3ccf5cc54b39a955899ff89fd46f~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_714a3ccf5cc54b39a955899ff89fd46f~mv2.jpg" alt="<span class="lang lang-pt">Atividade do CISIS-JGB</span><span class="lang lang-en">CISIS-JGB activity</span>">
+    </button>
+<button class="gallery-item reveal" type="button" data-full="https://static.wixstatic.com/media/56c817_5e377a06f0dd42d0a5f4cb01437ba72e~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_5e377a06f0dd42d0a5f4cb01437ba72e~mv2.jpg" aria-label="Abrir fotografia 6">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_5e377a06f0dd42d0a5f4cb01437ba72e~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_5e377a06f0dd42d0a5f4cb01437ba72e~mv2.jpg" alt="<span class="lang lang-pt">Atividade do CISIS-JGB</span><span class="lang lang-en">CISIS-JGB activity</span>">
+    </button>
+<button class="gallery-item reveal" type="button" data-full="https://static.wixstatic.com/media/56c817_0964ac07112540d68ed1dea0bbd31cb2~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_0964ac07112540d68ed1dea0bbd31cb2~mv2.jpg" aria-label="Abrir fotografia 7">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_0964ac07112540d68ed1dea0bbd31cb2~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_0964ac07112540d68ed1dea0bbd31cb2~mv2.jpg" alt="<span class="lang lang-pt">Atividade do CISIS-JGB</span><span class="lang lang-en">CISIS-JGB activity</span>">
+    </button>
+<button class="gallery-item reveal" type="button" data-full="https://static.wixstatic.com/media/56c817_4ba3b0cff34a4cf3a9d5628493163f04~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_4ba3b0cff34a4cf3a9d5628493163f04~mv2.jpg" aria-label="Abrir fotografia 8">
+      <img loading="lazy" src="https://static.wixstatic.com/media/56c817_4ba3b0cff34a4cf3a9d5628493163f04~mv2.jpg/v1/fill/w_455%2Ch_342%2Cq_90%2Cenc_avif%2Cquality_auto/56c817_4ba3b0cff34a4cf3a9d5628493163f04~mv2.jpg" alt="<span class="lang lang-pt">Atividade do CISIS-JGB</span><span class="lang lang-en">CISIS-JGB activity</span>">
+    </button></div>
+    </div>
+  </section>
+
+  <section id="parcerias" class="section partnership">
+    <div class="container split">
+      <div>
+        <p class="eyebrow"><span class="lang lang-pt">Parcerias para maior impacto</span><span class="lang lang-en">Partnerships for greater impact</span></p>
+        <h2><span class="lang lang-pt">Conhecimento local, competências científicas e proximidade às comunidades</span><span class="lang lang-en">Local knowledge, scientific capabilities and community proximity</span></h2>
+        <p><span class="lang lang-pt">O CISIS-JGB está disponível para cooperar com universidades, ONG, organizações da sociedade civil, instituições públicas, agências de cooperação e organizações internacionais.</span><span class="lang lang-en">CISIS-JGB is available to cooperate with universities, NGOs, civil society organisations, public institutions, cooperation agencies and international organisations.</span></p>
+        <div class="hero-actions">
+          <a class="btn primary" href="mailto:cisis.jgb@gmail.com?subject=Proposta%20de%20parceria%20com%20o%20CISIS-JGB"><span class="lang lang-pt">Contactar para parceria</span><span class="lang lang-en">Contact us about a partnership</span></a>
+          <button class="btn secondary" id="share-btn" type="button"><span class="lang lang-pt">Partilhar o site</span><span class="lang lang-en">Share website</span></button>
+        </div>
+      </div>
+      <div class="partner-points">
+        <div><strong><span class="lang lang-pt">Contexto</span><span class="lang lang-en">Context</span></strong><span><span class="lang lang-pt">Conhecimento aprofundado da realidade social guineense</span><span class="lang lang-en">Deep knowledge of Guinea-Bissau's social reality</span></span></div>
+        <div><strong><span class="lang lang-pt">Proximidade</span><span class="lang lang-en">Proximity</span></strong><span><span class="lang lang-pt">Capacidade de mobilização local e contacto com comunidades</span><span class="lang lang-en">Local mobilisation capacity and community engagement</span></span></div>
+        <div><strong><span class="lang lang-pt">Competência</span><span class="lang lang-en">Capability</span></strong><span><span class="lang lang-pt">Investigação, dados, monitorização e avaliação</span><span class="lang lang-en">Research, data, monitoring and evaluation</span></span></div>
+        <div><strong><span class="lang lang-pt">Cooperação</span><span class="lang lang-en">Cooperation</span></strong><span><span class="lang lang-pt">Disponibilidade para projetos nacionais e internacionais</span><span class="lang lang-en">Availability for national and international projects</span></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="noticias" class="section alt">
+    <div class="container split">
+      <div>
+        <p class="eyebrow"><span class="lang lang-pt">Atualidade</span><span class="lang lang-en">Updates</span></p>
+        <h2><span class="lang lang-pt">Acompanhe as atividades do CISIS-JGB</span><span class="lang lang-en">Follow CISIS-JGB activities</span></h2>
+        <p><span class="lang lang-pt">As atualizações mais recentes, fotografias de atividades e anúncios podem ser acompanhados na página oficial do Centro no Facebook.</span><span class="lang lang-en">The latest updates, activity photographs and announcements can be followed on the Centre's official Facebook page.</span></p>
+      </div>
+      <div class="social-card">
+        <div class="fb-mark">f</div>
+        <div>
+          <strong>Facebook · CISIS-JGB</strong>
+          <p><span class="lang lang-pt">Notícias, atividades e contactos com a comunidade.</span><span class="lang lang-en">News, activities and community engagement.</span></p>
+          <a class="text-link" target="_blank" rel="noopener" href="https://www.facebook.com/people/Cisis-jgb/100094467396719/"><span class="lang lang-pt">Abrir página do Facebook ↗</span><span class="lang lang-en">Open Facebook page ↗</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contactos" class="section contact">
+    <div class="container">
+      <p class="eyebrow"><span class="lang lang-pt">Contactos</span><span class="lang lang-en">Contact</span></p>
+      <h2><span class="lang lang-pt">Vamos trabalhar juntos?</span><span class="lang lang-en">Shall we work together?</span></h2>
+      <p class="lead"><span class="lang lang-pt">Para propostas de parceria, investigação, avaliação, capacitação ou outras formas de colaboração, contacte-nos.</span><span class="lang lang-en">For partnership, research, evaluation, capacity-building or other forms of collaboration, contact us.</span></p>
+
+      <div class="contact-grid">
+        <a class="contact-card" href="tel:956800404"><span>☎</span><div><small><span class="lang lang-pt">Telefone</span><span class="lang lang-en">Phone</span></small><strong>956 800 404</strong></div></a>
+        <a class="contact-card" href="mailto:cisis.jgb@gmail.com"><span>✉</span><div><small>E-mail</small><strong>cisis.jgb@gmail.com</strong></div></a>
+        <a class="contact-card" target="_blank" rel="noopener" href="https://www.facebook.com/people/Cisis-jgb/100094467396719/"><span>f</span><div><small>Facebook</small><strong>Cisis-jgb</strong></div></a>
+      </div>
+
+      <div class="contact-actions">
+        <button id="copy-email" class="btn secondary" type="button"><span class="lang lang-pt">Copiar e-mail</span><span class="lang lang-en">Copy email</span></button>
+        <a class="btn secondary" href="cisis-jgb.vcf" download><span class="lang lang-pt">Guardar contacto</span><span class="lang lang-en">Save contact</span></a>
+        <button class="btn secondary" onclick="window.print()" type="button"><span class="lang lang-pt">Imprimir / Guardar PDF</span><span class="lang lang-en">Print / Save PDF</span></button>
+      </div>
+      <p id="copy-status" class="small-note" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <img src="assets/logo-cisis-jgb.png" alt="CISIS-JGB" class="footer-logo">
+      <p><span class="lang lang-pt">Conhecer para agir. Intervir para melhorar a sociedade.</span><span class="lang lang-en">Know in order to act. Intervene to improve society.</span></p>
+    </div>
+    <div>
+      <strong><span class="lang lang-pt">Navegação</span><span class="lang lang-en">Navigation</span></strong>
+      <a href="#sobre"><span class="lang lang-pt">Quem somos</span><span class="lang lang-en">About</span></a>
+      <a href="#projetos"><span class="lang lang-pt">Projetos</span><span class="lang lang-en">Projects</span></a>
+      <a href="#equipa"><span class="lang lang-pt">Equipa</span><span class="lang lang-en">Team</span></a>
+    </div>
+    <div>
+      <strong><span class="lang lang-pt">Ligações</span><span class="lang lang-en">Links</span></strong>
+      <a target="_blank" rel="noopener" href="https://habitarrc.wixsite.com/gisis-por-bissau"><span class="lang lang-pt">Site histórico</span><span class="lang lang-en">Historical website</span></a>
+      <a target="_blank" rel="noopener" href="https://www.facebook.com/people/Cisis-jgb/100094467396719/">Facebook</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> CISIS-JGB.</span>
+    <span><span class="lang lang-pt">Sem cookies de rastreamento nesta versão.</span><span class="lang lang-en">No tracking cookies in this version.</span></span>
+  </div>
+</footer>
+
+<button id="back-top" class="back-top" type="button" aria-label="Voltar ao topo">↑</button>
+
+<div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+  <button class="lightbox-close" type="button" aria-label="Fechar">×</button>
+  <img src="" alt="<span class="lang lang-pt">Fotografia ampliada</span><span class="lang lang-en">Enlarged photograph</span>">
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

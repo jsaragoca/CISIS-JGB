@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jsaragoca.github.io/CISIS-JGB/sitemap.xml
